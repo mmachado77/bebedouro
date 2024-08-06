@@ -8,3 +8,5 @@ export async function GET(request) {
    
     return Response.json( bebeus )
   }
+  
+  export const revalidate = 10
