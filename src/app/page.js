@@ -10,7 +10,7 @@ export default function Home() {
     //Implementing the setInterval method
     const interval = setInterval(() => {
         pop();
-    }, 5000);
+    }, 1000);
 
     //Clearing the interval
     return () => clearInterval(interval);
